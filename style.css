@@ -164,3 +164,54 @@ footer a:hover {
     color: #C5C6C7; /* Cool Silver */
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+
+    header p {
+        font-size: 1em; /* Adjust paragraph font size */
+    }
+
+    section {
+        padding: 15px; /* Reduce padding in sections */
+    }
+
+    section h2 {
+        font-size: 1.5em; /* Adjust section header font size */
+    }
+
+    table, th, td {
+        font-size: 0.9em; /* Smaller text size for table */
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.9em; /* Smaller input fields for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; /* Add padding for very small screens */
+    }
+
+    header h1 {
+        font-size: 1.8em; /* Further reduce font size */
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    section h2 {
+        font-size: 1.3em; /* Further reduce section header font size */
+    }
+
+    table, th, td {
+        font-size: 0.8em; /* Adjust table font size */
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.8em; /* Further adjust input field sizes */
+    }
+}
