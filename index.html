@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +10,7 @@
   <body>
     <header>
       <h1>Tech Gadgets I Love</h1>
-      <p><strong>Exploring the Latest and Greatest Tech Gadgets!</strong></p>
+      <p>Exploring the Latest and Greatest Tech Gadgets!</p>
     </header>
     <main>
       <section>
@@ -25,7 +26,7 @@
         <h2 id="gadgets">Featured Gadgets</h2>
 
         <h3>Apple Vision Pro (Mixed Reality Headset)</h3>
-        <img src="Images/Apple-Vision-Pro-Alternatives.jpeg" alt="Apple Vision Pro" />
+        <img class="image-animate" src="Images/Apple-Vision-Pro-Alternatives.jpeg" alt="Apple Vision Pro" />
         <p>
           A revolutionary mixed-reality headset by Apple that combines augmented
           reality (AR) and virtual reality (VR). It features eye-tracking, hand
@@ -44,7 +45,7 @@
         </p>
 
         <h3>Tesla Cybertruck Mini Model (RC Toy)</h3>
-        <img src="Images/tesla truck.jpg" alt="Tesla Cybertruck">
+        <img class="image-animate" src="Images/tesla truck.jpg" alt="Tesla Cybertruck">
         <p>
           A smaller, remote-controlled version of Tesla's futuristic Cybertruck.
           Perfect for tech enthusiasts and RC car lovers.
@@ -62,7 +63,7 @@
         </p>
 
         <h3>DJI Mini 4 Pro Drone</h3>
-        <img src="Images/drone.jpg" alt="DJI Mini 4 Pro" />
+        <img class="image-animate" src="Images/drone.jpg" alt="DJI Mini 4 Pro" />
         <p>
           A compact yet powerful drone with cutting-edge features like 4K HDR
           video, obstacle sensing, and enhanced battery life.
@@ -80,7 +81,7 @@
         </p>
 
         <h3>LARQ Bottle (Self-Cleaning Water Bottle)</h3>
-        <img src="Images/LARQ Bottle.jpg" alt="LARQ Bottle" />
+        <img class="image-animate" src="Images/LARQ Bottle.jpg" alt="LARQ Bottle" />
         <p>
           A sleek, self-cleaning water bottle that uses UV-C light to purify
           water and clean the bottle automatically.
@@ -98,7 +99,7 @@
         </p>
 
         <h3>Foldable Keyboard with Trackpad</h3>
-        <img src="Images/keyboard.jpg" alt="Foldable Keyboard" />
+        <img class="image-animate" src="Images/keyboard.jpg" alt="Foldable Keyboard" />
         <p>
           A portable, Bluetooth-enabled keyboard with a built-in trackpad that
           folds to fit in your pocket. Ideal for on-the-go productivity.
@@ -159,18 +160,20 @@
 
       <section>
         <h2>Share Your Favorite Gadget!</h2>
-        <form action="submit.html" method="get">
+        <form>
             <label for="fav-gadget">What's your favorite gadget?</label>
             <input type="text" id="fav-gadget" name="fav-gadget" placeholder="Enter gadget name"><br>
 
             <label for="reason">Why do you love it?</label>
             <textarea id="reason" name="reason" rows="4" cols="50" placeholder="Share your thoughts"></textarea><br>
-            <button type="submit">Submit</button>
+            <button id="submit-button" type="button">Submit</button>
         </form>
       </section>
     </main>
     <footer>
         <p>Explore more futuristic tech at <a href="https://www.techradar.com" target="_blank">TechRadar</a> and stay updated on the latest gadgets!</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
