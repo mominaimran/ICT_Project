@@ -181,6 +181,13 @@ footer a:hover {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    section img {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid #99E1D9; /* Soft Teal */
+    border-radius: 8px;
+    margin: 10px 0;
+}
     header h1 {
         font-size: 2em; /* Smaller font size for smaller screens */
     }
