@@ -111,12 +111,12 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #99E1D9; /* Soft Teal */
+    background-color: #C0C0C0; /* grey */
     color: #000000; /* Black */
 }
 
 tr:hover {
-    background-color: #107E7D; /* Deep Teal */
+    background-color: #99E1D9; /* Deep Teal */
     color: #F0F7F4; /* Light Mint White */
 }
 
