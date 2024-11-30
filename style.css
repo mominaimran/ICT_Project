@@ -207,6 +207,13 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
+    section img {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid #99E1D9; /* Soft Teal */
+    border-radius: 8px;
+    margin: 10px 0;
+}
     body {
         padding: 10px; /* Add padding for very small screens */
     }
